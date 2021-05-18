@@ -1,0 +1,57 @@
+学习了基础的HTML笔记
+  <head>元素，浏然器不显示的内容，里面一般也是css.js文件用<link herf="">的方式放进去
+  <p>我的理解是文本输入内容
+  <img>放置图片的标签
+  <h1>主标题、<h2>一级标题、<h3>二级标题，一次下推数值越小标题越大
+  <body>显示浏然器页面内容
+  <a herf="">超链接，也就是放需要点击跳转界面的地方
+  <ol>有序列表
+  <ul>无序列表
+  <li>列表显示内容
+
+
+学习css基础知识笔记
+   css样式语言，自理解：为HTML的元素增加样子，是的html更好看
+   写法：p(<p>的元素内容设置红色) {
+                      color: red
+                        }
+   多个元素一起设置的写法：p, li {
+
+                                  }
+
+   css盒子一些常见的参数：padding：内边距，margin：外边距-内边框到外边框的内容，border:内边框-也就是内边框的厚度，width:元素的高度,color:元素内容的颜色，background-color:元素内容的背景色设置
+
+
+5月18号总结：今日注册了github用户明，安装了vscode,nvm,git,chorm中添加了“彩云小译”，学习了js第一部分中的web入门和html,css基础并且代码练习
+
+
+5月18号代码：
+        <!DOCTYPE html>
+<html>
+  <head><!-- <head>元素用户不可见的内容 -->
+    <meta charset="utf-8">
+    <title>我的测试页面</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  </head>
+  <h1>百度 酷毙了</h1>
+  <!-- <h2>顶层标题</h2>----标题的语法
+  <h3>子标题</h3>
+  <h4>次子标题</h4> -->
+  <body>
+    <!--  <body> ------用户可见的内容> -->
+    <img src="images/dm.jpg" alt="我的测试页面动漫做主题">
+    <!-- <p>这是一个段落</p> -->
+  </body>
+  <!--  <p></p> --这是一个段落，也是一个文本内容> -->
+  <p>Mozilla 是一个全球社区，这里聚集着来自五湖四海</p>
+  <!-- <ol><ul></ul>- ---ol指的是有序列表，ul指的是无序列表，列表内容用<li></li>表示-->
+  <ul>
+    <li>技术人员</li>
+    <li>思考者</li>
+    <li>建造者</li>
+  </ul>
+  <p>我们致力于....</p>
+  <a href="https://www.baidu.com">百度</a>
+</html> 
+      
